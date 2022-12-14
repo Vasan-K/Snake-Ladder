@@ -1,0 +1,29 @@
+.board-container{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  table,th,td {
+    border: 1px solid;
+  }
+  th, td {
+    padding: 15px;
+  }
+  table {
+    text-align: center;
+  }
+
+  .slad{
+    background-color: green;
+  }
+
+  .smark{
+    background-color:red;
+  }
+
+  .pone{
+    background-color: yellow;
+  }
+
+  .ptwo{
+    background-color: lightpink;
+  }

@@ -1,0 +1,7 @@
+<div class="player2-container">
+    <h2>Player 2</h2>
+    <button class="btn" type="button" [disabled]="isStop()" (click)="baseFun()">Generate</button>
+    <p>Dice Value : {{yourturn1}}</p>
+    <p>Player Points : {{playerjpoints}}</p>
+    <p *ngIf="playerjpoints==100">Winner</p>
+</div>
